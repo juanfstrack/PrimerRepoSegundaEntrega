@@ -1,0 +1,9 @@
+
+/* Id botonera */
+#botonera ul li a{
+    color:rgb(255, 255, 255);
+}
+#botonera {
+    background-color: rgb(24, 34, 51);
+}
+
