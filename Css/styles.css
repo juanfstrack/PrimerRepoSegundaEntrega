@@ -29,8 +29,6 @@ html {
 
 /* clases */
 
-
-
 /* GRIDS */
 
 /* galería */
@@ -40,7 +38,7 @@ html {
     box-sizing: border-box;
 }
 body {
-    background-color: rgb(10, 20, 40);
+    background-color: rgb(37, 23, 73)
 }
 .container-img {
     width: 100%;
@@ -91,17 +89,15 @@ body {
 
 /* galería ends */
 
-
-
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.container__row {
+.container__colum {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-items: center;
     justify-content: center;
 }
@@ -156,46 +152,50 @@ body {
 }
 
 .css__box--style {
-    font-size: 3rem;
+    font-size: 2rem;
     background-color: aqua;
     margin: 5%;
-    padding: 5%;
-    border: 20%;
+    padding: 1%;
+    border: 10%;
     border-radius: 20%;
     border-color: black;
     width: 20%;
-    height: 130%;
+    height: 70%;
+    text-align: center;
 }
 
 .html__box--style {
-    font-size: 3rem;
+    font-size: 2rem;
     background-color: tomato;
     margin: 5%;
-    padding: 5%;
-    border: 20%;
-    border-radius: 20%;
-    border-color: black;
-    width: 30%;
-    height: 130%;
-}
-
-.js__box--style {
-    font-size: 3rem;
-    background-color: yellow;
-    margin: 5%;
-    padding: 5%;
-    border: 20%;
+    padding: 1%;
+    border: 10%;
     border-radius: 20%;
     border-color: black;
     width: 10%;
-    height: 130%;
-    
+    height: 70%;
+    text-align: center;
 }
+
+.js__box--style {
+    font-size: 2rem;
+    background-color: yellow;
+    margin: 5%;
+    padding: 1%;
+    border: 20%;
+    border-radius: 10%;
+    border-color: black;
+    width: 10%;
+    height: 70%;
+    text-align: center;
+}
+
+/* clases para contenedores de about me */
 
 /* etiquetas */
 
-body {
-    background-image: url(../img/Backgroundhome/empapelado.webp);
+body{
+    background-image: url(../img/Backgroundhome/nasa-rTZW4f02zY8-unsplash.webp);
 }
 
 h1 {
@@ -216,6 +216,11 @@ h2 {
     padding: 2%;
     margin: 2%;
     border-radius: 5%;
+}
+
+h3{
+    text-align: center;
+    color: rgb(24, 34, 51); ;
 }
 
 p {
