@@ -1,7 +1,4 @@
-:root{
-    --colorPrincipal: #FF206E;
-    --colorSecundario: #08BDBD;
-}
+
 
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
@@ -13,21 +10,22 @@ html {
 }
 
 /* Id botonera */
-#botonera ul li a {
+#nav ul li a {
     color: rgb(255, 255, 255);
+    margin: 10%;
+   
+    
+    
+
 }
-#botonera {
-    background: linear-gradient(
-        90deg,
-        var(--colorPrincipal) 0%,
-        var(--colorPrincipal) 19%,
-        var(--colorPrincipal) 100%
-    );
+#nav {
+    background: rgb(125,123,150);
+    background: linear-gradient(90deg, rgba(125,123,150,1) 0%, rgba(67,67,140,1) 19%, rgba(25,14,64,1) 80%); 
     width: 100%;
     height: 10%;
 }
 
-#botonera {
+#nav {
     font-size: 2rem;
 }
 
@@ -164,13 +162,13 @@ html {
     text-align: center;
 }
 .css__box--style{
-    background-color: var(--colorPrincipal);
+    background-color: #34F7F1
 }
 .html__box--style {
-    background-color: var(--colorPrincipal);
+    background-color: #F78C12
 }
 .js__box--style {
-    background-color: var(--colorPrincipal);
+    background-color: #E8F712
 }
 
 /* clases para contenedores de about me */
